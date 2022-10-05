@@ -102,17 +102,17 @@
 
 .detailBuyLeft p {
   font-family: "Bold";
-  color: #6a983c;
+  /* color: #6a983c; */
   font-size: 22px;
 }
 
 .detailBuyRight button {
-  color: white;
+  /* color: white; */
   font-family: "Bold";
   width: 140px;
   height: 47px;
-  background: #6a983c;
-  border: 2px solid #46760a;
+  /* background: #6a983c; */
+  /* border: 2px solid #46760a; */
   box-sizing: border-box;
   border-radius: 6px;
   font-size: 1.01em;

@@ -43,7 +43,7 @@ input {
 ul.breadcrumb {
   padding: 15px 50px;
   list-style: none;
-  background: white;
+  /* background: #12191d; */
 }
 
 ul.breadcrumb li {
@@ -146,6 +146,7 @@ option,
   padding: 0px 12px;
   font-family: "Semi-Bold";
   margin-top: 6px;
+  color:rgb(170, 168,168,168)
 }
 
 .billingInfoContainer label {
@@ -391,10 +392,10 @@ option,
 
 #btn-complete {
   margin-top: 32px !important;
-  background: #6a983c;
+  background: transparent;
   color: white;
   font-family: "Bold";
-  border: 2px solid #46760a;
+  border: 2px solid white;
   box-sizing: border-box;
   border-radius: 6px;
   padding: 16px 48px;
@@ -448,10 +449,11 @@ option,
 }
 
 .cartProductEnd button {
-  border: none;
+  border: 1px solid white;
   outline: none;
-  color: white;
-  background-color: #6a983c;
+  /* color: white; */
+  /* background-color: #6a983c; */
+  background-color: transparent;
   width: 50px;
   height: 20px;
   margin-top: 50px;

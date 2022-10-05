@@ -10,8 +10,13 @@
     height: 316px;
     padding: 0 30px 30px 0;
     flex: 1 1 150px;
+    opacity: 0.8;
+    transition: 1s ease;
 }
-
+.blogCard:hover{
+    opacity: 1;
+    transition: 1s ease;
+}
 .blogCardImg{
     width: 100%;
     max-height: 180px;
@@ -36,7 +41,9 @@
 }
 
 .blogCardTag span{
-    color: #6A983C;
+    /* color: #6A983C; */
+    /* color:rgb(170, 168, 168) */
+    color:black
 }
 
 .blogCardHeading{

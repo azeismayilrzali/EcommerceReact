@@ -1,6 +1,17 @@
-[
+import one from '../../assets/new/1.png'
+import two from '../../assets/new/2.png'
+import three from '../../assets/new/3.png'
+import four from '../../assets/new/4.png'
+import five from '../../assets/new/5.png'
+import six from '../../assets/new/6.png'
+import seven from '../../assets/new/7.png'
+import eight from '../../assets/new/8.png'
+import nine from '../../assets/new/9.png'
+
+ 
+export default[
   {
-    "img": "https://cdn.shopify.com/s/files/1/0417/7710/3008/products/8_b_600x.jpg?v=1592963866",
+    "img": one,
     "title": "Shoes 1",
     "desc": "Space for a small product description",
     "price": 23.5,
@@ -19,7 +30,7 @@
     "rating": 4.5
   },
   {
-    "img": "https://cdn.shopify.com/s/files/1/0417/7710/3008/products/5_b_600x.jpg?v=1593071537",
+    "img": two,
     "title": "Shoes 2",
     "desc": "Space for a small product description",
     "price": 33.9,
@@ -39,7 +50,7 @@
     "rating": 2.5
   },
   {
-    "img": "https://cdn.shopify.com/s/files/1/0417/7710/3008/products/2_b_425x.jpg?v=1593049248",
+    "img": three,
     "title": "Shoes 3",
     "desc": "Space for a small product description",
     "price": 18.6,
@@ -58,7 +69,7 @@
     "rating": 3.5
   },
   {
-    "img": "https://cdn.shopify.com/s/files/1/0417/7710/3008/products/12_b_600x.jpg?v=1592964220",
+    "img": four,
     "title": "Shoes 4",
     "desc": "Space for a small product description",
     "price": 21.49,
@@ -77,7 +88,7 @@
     "rating": 5
   },
   {
-    "img": "https://cdn.shopify.com/s/files/1/0417/7710/3008/products/9_b_600x.jpg?v=1592964272",
+    "img": five,
     "title": "Shoes 5",
     "desc": "Space for a small product description",
     "price": 66.79,
@@ -96,7 +107,7 @@
     "rating": 1
   },
   {
-    "img": "https://cdn.shopify.com/s/files/1/0417/7710/3008/products/4_b_600x.jpg?v=1592963172",
+    "img": six,
     "title": "Shoes 6",
     "desc": "Space for a small product description",
     "price": 54.09,
@@ -115,7 +126,7 @@
     "rating": 4
   },
   {
-    "img": "https://cdn.shopify.com/s/files/1/0417/7710/3008/products/7_b_600x.jpg?v=1592963729",
+    "img": seven,
     "title": "Shoes 7",
     "desc": "Space for a small product description",
     "price": 83.48,
@@ -136,7 +147,7 @@
     "rating": 3
   },
   {
-    "img": "https://cdn.shopify.com/s/files/1/0417/7710/3008/products/6_b_600x.jpg?v=1593059811",
+    "img": eight,
     "title": "Shoes 8",
     "desc": "Space for a small product description",
     "price": 40.48,
@@ -155,7 +166,7 @@
     "rating": 4
   },
   {
-    "img": "https://cdn.shopify.com/s/files/1/0417/7710/3008/products/11_b_600x.jpg?v=1592964243",
+    "img": nine,
     "title": "Shoes 9",
     "desc": "Space for a small product description",
     "price": 71.49,
@@ -174,7 +185,7 @@
     "rating": 4
   },
   {
-    "img": "https://cdn.shopify.com/s/files/1/0417/7710/3008/products/3_b_425x.jpg?v=1592962836",
+    "img": nine,
     "title": "Shoes 10",
     "desc": "Space for a small product description",
     "price": 61.99,

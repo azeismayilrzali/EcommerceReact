@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Blog from '../components/Blog/Blog'
 function Blogpage() {
     return (
+        <>
         <div className="blogPage">
 
             <div className="bread">
@@ -16,6 +17,7 @@ function Blogpage() {
             <Blog />
 
         </div>
+        <hr style={{marginBottom:'8%'}}/></>
     )
 }
 

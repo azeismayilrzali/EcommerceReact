@@ -55,7 +55,7 @@ hr {
 }
 
 .topHeaderLeft ul li:nth-child(1) a {
-  color: green;
+  color:  white;
 }
 
 .topHeaderRight ul li {
@@ -65,9 +65,11 @@ hr {
 }
 
 .topHeaderRight ul li a {
-  color: green;
+  color:  white;
 }
-
+.topHeaderLeft ul li a{
+  color: white
+}
 .mainHeader {
   height: 110px;
   display: flex;
@@ -81,17 +83,21 @@ hr {
   align-items: center;
   justify-content: space-between;
 }
-
+.mainHeaderMiddle{
+ margin-left: -6%;
+ margin-right: 6%;
+}
 .mainHeaderMiddleContainer {
   width: 500px;
   height: 42px;
-  background-color: #f9f9f9;
-  border: 1px solid #d1d1d1;
+  /* background-color: #f9f9f9; */
+  /* border: 1px solid #1a237e; */
   border-radius: 6px;
 }
 
 .mainHeaderRight {
   display: flex;
+ 
 }
 
 .mainHeaderUser {
@@ -110,7 +116,7 @@ hr {
   left: -10%;
   width: 16px;
   height: 16px;
-  background-color: #e5704b;
+  /* background-color: #e5704b; */
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
   overflow: hidden;
@@ -118,6 +124,7 @@ hr {
   align-items: center;
   justify-content: center;
   text-align: center;
+  border:1px solid gray
 }
 
 .mainHeaderBasket span {
@@ -152,15 +159,17 @@ hr {
   font-family: "Bold";
   font-size: 17px;
   margin-bottom: 5%;
-  color: #e5704b;
+  /* color: #e5704b; */
+  color:#9ea7aa !important
 }
 
 #ordernowbtn {
   width: 30%;
   padding: 5px 0px;
-  border: 2px solid #46760a;
-  background: #6a983c;
-  color: white;
+  border: 1px solid ;
+  background: transparent;
+  outline: none;
+  /* color: white; */
   box-sizing: border-box;
   border-radius: 6px;
   font-family: "Bold";
@@ -237,6 +246,8 @@ hr {
   font-family: "Bold";
   font-weight: bold;
   font-size: 16px;
+  /* color:black */
+  color:#eeffff
 }
 
 .mainHeaderMiddleSelect::after {
@@ -255,7 +266,6 @@ nav {
   z-index: 1;
   width: 100%;
   height: 55px;
-  background: #f9f9f9;
   padding: 0px 50px;
   display: flex;
   align-items: center;
@@ -277,21 +287,123 @@ nav ul {
 .dropdown {
   position: relative;
   display: inline-block;
+  /* color: #1a237e */
+  color:rgb(170, 168, 168)
+}
+.getInTouch {
+  color: black;
+  font-size: 1.38em;
+  line-height: 1.38em;
+  letter-spacing: .0625em;
+
 }
 
+.transform {
+  display: flex;
+}
+
+.rolling-text:hover .letter {
+  transform: translateY(-100%);
+}
+
+.rolling-text .letter {
+  display: inline-block;
+  transition: transform .6s cubic-bezier(.76, 0, .24, 1);
+}
+
+.letter:nth-child(1) {
+  transition-delay: 0s;
+}
+
+.letter:nth-child(2) {
+  transition-delay: 15ms;
+}
+
+.letter:nth-child(3) {
+  transition-delay: .03s;
+}
+
+.letter:nth-child(4) {
+  transition-delay: 45ms;
+
+}
+
+.letter:nth-child(5) {
+  transition-delay: .06s;
+}
+
+.letter:nth-child(6) {
+  transition-delay: 75ms;
+}
+
+.letter:nth-child(7) {
+  transition-delay: .09s;
+}
+
+.letter:nth-child(8) {
+  transition-delay: .105s;
+}
+
+.letter:nth-child(9) {
+  transition-delay: .12s;
+}
+
+.letter:nth-child(10) {
+  transition-delay: .135s;
+}
+
+.letter:nth-child(11) {
+  transition-delay: .135s;
+}
+
+.letter:nth-child(12) {
+  transition-delay: .165s;
+}
+
+.rolling-text .block:last-child {
+  color: #1a237e;
+}
+
+.letter {
+  font-size: 17px !important;
+}
+
+.rolling-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+
+}
+
+.flexTouch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.spans {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 30px;
+}
 .dropdown-content {
   display: none;
   position: absolute;
   left: 0%;
   background-color: #f9f9f9;
-  box-shadow: 0px 5px 6px 2px rgb(192, 192, 192);
+  color:rgb(170, 168, 168);
+  /* box-shadow: 0px 5px 6px 2px rgb(192, 192, 192); */
   min-width: 160px;
   padding: 0px 16px;
   z-index: 1;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
 }
-
+.dropdown-ul li{
+ color:rgb(170, 168, 168)
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -337,7 +449,10 @@ nav ul {
   margin: 0px !important;
   margin-top: 15px !important;
 }
-
+.two{
+  display: flex;
+  align-items: center;
+}
 #hamburger {
   display: none;
   z-index: 1000 !important;

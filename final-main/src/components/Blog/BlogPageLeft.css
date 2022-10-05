@@ -19,6 +19,7 @@
     font-family: "Bold";
     margin-bottom: 16px;
     margin-top: 48px;
+    color:white
 }
 
 .blogArchivesDetail p,
@@ -29,7 +30,8 @@
     font-size: 14px;
     line-height: 19px;
     text-decoration-line: underline;
-    color: #6A983C;
+    /* color: #6A983C; */
+    color:rgb(170, 168, 168, 168);
     flex: none;
     order: 0;
     flex-grow: 0;

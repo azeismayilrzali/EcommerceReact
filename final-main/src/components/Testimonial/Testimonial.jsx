@@ -9,7 +9,7 @@ function Testimonial() {
 
     SwiperCore.use([Navigation]);
     return (
-        <div style={{ marginTop: "60px" }}>
+        <div className='swip' style={{ marginTop: "60px" }}>
 
             <Swiper navigation={true} className="mySwiper ">
 

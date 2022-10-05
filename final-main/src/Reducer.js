@@ -1,4 +1,4 @@
-import JSONDATA from './components/Main/Search.json'
+import JSONDATA from './components/Main/Search'
 
 const initalState = {
     data: JSONDATA,

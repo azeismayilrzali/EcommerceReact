@@ -53,7 +53,8 @@ function CategoryRight(props) {
             {JSONDATA.map((item, key) => {
 
                 return (
-                    <div className="mainRightCard1 card" id="card" key={key}>
+                    
+                    <div className="mainRightCard1 card " id="card" key={key}>
                         <Link to={`/products/${item.id}`}>
                             <img className="card-img"
                                 src={item.img} />
@@ -71,6 +72,7 @@ function CategoryRight(props) {
                             </button>
                         </div>
                     </div>
+                  
                 )
             })}
 

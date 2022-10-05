@@ -36,13 +36,34 @@
 .eighthReview {
   width: 369px;
   height: 206px;
-  border: 1px solid #f1f1f1;
+  /* border: 1px solid #1a237e; */
+  opacity: 0.8;
+transition: 1s ease;
+box-shadow: 0px 9px 26px -3px rgb(0 0 0 / 20%);
+border: 1px solid #111212;
   box-sizing: border-box;
   border-radius: 6px;
   padding: 24px 32px;
   text-align: center;
-  transition: 0.5;
+  /* transition: 0.5; */
 }
+.firstReview:hover,
+.secondReview:hover,
+.thirdReview:hover,
+.fourthReview:hover,
+.fifthReview:hover,
+.sixthReview:hover,
+.seventhReview:hover,
+.eighthReview:hover{
+  border: 1px solid white;
+  transition: 1s ease;
+  box-shadow: 0px 9px 26px -3px rgba(113, 112, 112, 0.20);
+  transform: translateY(-50px);
+
+}
+
+
+
 
 .firstReview p,
 .secondReview p,
@@ -52,9 +73,10 @@
 .sixthReview p,
 .seventhReview p,
 .eighthReview p {
-  color: #151515;
+  /* color: #151515; */
   font-family: "Semi-Bold";
   padding-bottom: 24px;
+  color:#eeffff
 }
 
 .firstReview span,
@@ -64,7 +86,7 @@
 .fifthReview span,
 .sixthReview span,
 .seventhReview span .eighthReview span {
-  color: #a9a9a9;
+  color: white;
   font-family: "Semi-Bold";
   font-size: 0.95em;
 }
@@ -118,16 +140,20 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: black !important;
+  color: white !important;
   width: 15px !important;
 }
-
+.swiperContainer{
+  height: 50vh;
+}
 .sliderContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.swip .swiper-container{
+  padding-top: 50px;
+}
 .testimonial {
   margin: 0px 64px;
 }

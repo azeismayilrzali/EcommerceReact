@@ -8,8 +8,10 @@ function HeadingMiddle() {
     return (
         <div className="mainHeader">
             <Logo />
-            <Search />
-            <Cart />
+            <div className='two'>
+                <Search />
+                <Cart />
+            </div>
         </div>
     )
 }

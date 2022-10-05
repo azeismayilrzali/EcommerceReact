@@ -46,15 +46,17 @@
 }
 
 .categories div p {
-  color: #4b4b4b;
+  color: #9ea7aa;
 }
 
 .categories div span {
-  color: #6a983c;
-  background: #f4f8ec;
+  color: white;
+  opacity: 0.8;
+  background: transparent;
   border-radius: 6px;
   padding: 0px 8px;
   font-family: "Bold";
+  border:1px solid #404142
 }
 
 .brands input,
@@ -63,14 +65,19 @@
   height: 20px;
   margin-right: 10px;
   transform: translateY(3px);
+ 
 }
-
+label{
+  color: #9ea7aa;
+}
 .price {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
+h2, h1{
+  color: white !important;
+}
 .priceBetween {
   width: 100%;
   display: flex;
@@ -85,7 +92,7 @@
 .priceBetween input {
   width: 109px;
   height: 42px;
-  background: #f9f9f9;
+  background: transparent;
   border: 1px solid #d1d1d1;
   box-sizing: border-box;
   border-radius: 6px;
@@ -155,13 +162,15 @@
 }
 
 .categoryHeadingRight div span {
-  background: #f4f8ec;
+  /* background: #f4f8ec; */
   border-radius: 6px;
   width: 30px;
   height: 20px;
   text-align: center;
   font-size: 0.85rem;
-  color: #6a983c;
+  color: white;
+  opacity: 0.8;
+  border: 1px solid #a6b1b4;
 }
 
 .filterContainer {
@@ -175,9 +184,10 @@
   width: auto;
   padding: 0px 18px;
   height: 42px;
-  background: #f9f9f9;
+  /* background: #f9f9f9; */
   border: none;
   box-sizing: border-box;
+  border:1px solid #404142;
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -204,8 +214,10 @@
 .secondFilter {
   width: 150px;
   height: 42px;
-  background: #f9f9f9;
+  /* background: #f9f9f9;
+   */
   border: none;
+  border:1px solid #404142;
   box-sizing: border-box;
   border-radius: 6px;
   display: flex;
@@ -221,7 +233,9 @@
   width: 20px;
   height: 20px;
   border: 1.5px solid #d1d1d1;
+  background-color: transparent !important;
   border-radius: 100px;
+  color:transparent
 }
 
 .fourthFilter select {
@@ -250,13 +264,15 @@
 
 .appliedFilters span {
   cursor: pointer;
-  color: #6a983c;
-  background: #f4f8ec;
+  color: #0077b6;
+  background: transparent;
   border-radius: 6px;
+  border: 1px solid gray;
   padding: 2px 14px;
 }
 .slidecontainer {
   width: 100%; /* Width of the outside container */
+  color:white
 }
 
 /* The slider itself */
@@ -283,7 +299,7 @@
   appearance: none;
   width: 20px;
   height: 20px;
-  background: #6a983c;
+  /* background: #6a983c; */
   cursor: pointer;
   border-radius: 6px;
 }
@@ -291,15 +307,43 @@
 .slider::-moz-range-thumb {
   width: 20px;
   height: 20px;
-  background: #6a983c;
+  /* background: #6a983c; */
   cursor: pointer;
   border-radius: 6px;
 }
 
 #card {
   margin-bottom: 48px;
+  opacity: 0.8;
+  transition: 1s ease;
+  box-shadow: 0px 9px 26px -3px rgba(0,0,0,0.20);
+  border:1px solid #111212
+}
+#card:hover{
+  opacity: 1;
+  transition: 1s ease;
+}
+#card:hover .cardContainer button{
+  border:2px solid #1e2371;
+  transition: 1s ease;
 }
 
+
+ #card:hover{
+  border: 1px solid white;
+  box-shadow: 0px 9px 26px -3px rgba(113, 112, 112, 0.20);
+}
+
+.mainRightCard1:hover h3{
+  color: white;
+  transition: 1s ease;
+opacity: 1;
+}
+.mainRightCard1:hover p {
+  color: white;
+  transition: 1s ease;
+opacity: 1;
+}
 .listView {
   width: 79%;
   margin: 0px 64px;
@@ -307,7 +351,10 @@
   flex-direction: column;
   justify-content: center;
 }
-
+#card:hover .wishlistBtn button i{
+  color: red;
+  transition: 1s ease;
+}
 .list-cart {
   width: 100%;
   height: 280px;

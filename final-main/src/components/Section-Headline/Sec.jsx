@@ -66,7 +66,7 @@ function Sec(props) {
                 {JSONDATA.slice(4, 8).map((val, key) => {
 
                     return (
-                        <div className="mainRightCard1 card" key={key}>
+                        <div className="mainRightCard1 card" id='card' key={key}>
                             <Link to={`/products/${val.id}`}>
                                 <img className="card-img"
                                     src={val.img} />

@@ -18,7 +18,7 @@ function ReadBlog() {
                 <BlogMiddle />
                 <BlogRight />
             </div>
-
+<hr style={{color:"#1a237e"}}/>
         </div>
     )
 }

@@ -9,7 +9,7 @@ function Footer() {
 
             <div className="footer1">
                 <ul>
-                    <h5>Get in touch</h5>
+                    <h5 className="fromLeft">Get in touch</h5>
                     <Link to="/">
                         <li>About Us</li>
                     </Link>
@@ -27,7 +27,7 @@ function Footer() {
 
             <div className="footer2">
                 <ul>
-                    <h5>Connections</h5>
+                    <h5 className="fromLeft">Connections</h5>
                     <Link to="/">
                         <li>Facebook</li>
                     </Link>
@@ -48,7 +48,7 @@ function Footer() {
 
             <div className="footer3">
                 <ul>
-                    <h5>Get in touch</h5>
+                    <h5 className="fromLeft">Get in touch</h5>
                     <Link to="/">
                         <li>Become an Affiliate</li>
                     </Link>
@@ -63,7 +63,7 @@ function Footer() {
 
             <div className="footer4">
                 <ul>
-                    <h5>Account</h5>
+                    <h5 className="fromLeft">Account</h5>
                     <Link to="/">
                         <li>Your Account</li>
                     </Link>

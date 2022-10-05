@@ -1,15 +1,43 @@
-button{
+/* button{
     border: none !important;
-}
+} */
 
 #root{
     max-width: 1920px;
     margin: 0 auto;
+    /* background-color: #050f19; */
+    animation: gradient 2s infinite alternate linear;
+    background: #050f19;
+
+}
+
+
+  
+@keyframes gradient {
+  
+  100% {
+    background: #101a23;
+    }
+ 
+
 }
 html {
   scroll-behavior: smooth;
 }
-
+html{
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background:  black;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: black;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid rgb(49, 49, 48);  /* creates padding around scroll thumb */
+}
 .sliderContainer {
   padding: 0 40px;
 }
