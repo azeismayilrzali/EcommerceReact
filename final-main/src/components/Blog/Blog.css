@@ -19,3 +19,9 @@
 .blog-container-second-section{
   margin: 96px 0;
 }
+@media only screen and (max-width: 1500px){
+ .end-blog{
+  display: none;
+ }
+ 
+}

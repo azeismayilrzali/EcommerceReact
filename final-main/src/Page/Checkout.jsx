@@ -32,6 +32,7 @@ function Checkout(props) {
         <div ref={parent} className="checkout">
             <Breadcrumb />
             <CheckoutMain />
+            <hr style={{marginBottom:'8%'}}/>
         </div>
     )
 }

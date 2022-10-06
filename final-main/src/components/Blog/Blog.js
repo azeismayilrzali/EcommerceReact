@@ -20,6 +20,10 @@ function Blog() {
             <div className="blog-container-first-right">
                 <BlogLeft/>
             </div>
+            <div className='end-blog'>
+               <BlogLeft/>
+            </div>
+           
 
         </div>
         

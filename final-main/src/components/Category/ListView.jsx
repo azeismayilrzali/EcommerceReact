@@ -35,7 +35,7 @@ function ListView(props) {
                             <div className="list-card-middle-inner-bottom">
                                 <div>
                                     <p>Fresheness</p>
-                                    <p style={{ color: "green" }}>{val.freshness}</p>
+                                    <p style={{ color: "white" }}>{val.freshness}</p>
                                 </div>
 
                                 <div>
@@ -50,7 +50,7 @@ function ListView(props) {
 
                                 <div>
                                     <p>Stock</p>
-                                    <p style={{ color: "green" }}>{val.stock}</p>
+                                    <p style={{ color: "white" }}>{val.stock}</p>
                                 </div>
 
                             </div>
@@ -69,7 +69,7 @@ function ListView(props) {
 
                             <div>
                                 <button>Product Detail</button> <br />
-                                <button>
+                                <button className='wish-button'>
                                     <i className="far fa-heart"></i>
                                     <p>Add to wish list</p>
                                 </button>

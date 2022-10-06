@@ -22,7 +22,9 @@
 input {
   -webkit-overflow-scrolling: touch;
 }
-
+.open-cart-title p, .open-cart-price p{
+  color:black !important
+}
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +35,12 @@ input {
   position: relative;
   height: 100%;
 }
-
+ul.breadcrumb li{
+  color:black
+}
+.blog-page-inner-first{
+  color:white
+}
 .bread {
   margin-bottom: 20px;
   position: relative;
@@ -48,6 +55,7 @@ ul.breadcrumb {
 
 ul.breadcrumb li {
   display: inline;
+  color:white
 }
 
 ul.breadcrumb li + li:before {
@@ -67,7 +75,12 @@ ul.breadcrumb li a:hover {
 #homepage {
   color: #a9a9a9;
 }
-
+thead{
+  color:black
+}
+.wp-table{
+  color: black !important
+}
 .checkoutMain {
   width: 100%;
   display: flex;
@@ -230,7 +243,7 @@ option,
 }
 
 .shippingPrice span {
-  color: #6a983c;
+  color: #1a237e;
 }
 
 .shippingImg {
@@ -329,6 +342,7 @@ option,
 .cvc input,
 .expDate input {
   width: 120px;
+  color:black
 }
 
 .checkoutFooter {
@@ -338,7 +352,12 @@ option,
 .checkoutFooter {
   width: 100%;
 }
-
+.FedEx p , .addInformation p , .shippingPrice p, .paymentFirstLeft p, .iAgree p {
+  color:black
+}
+#copy{
+  color:white
+}
 .addInformation {
   width: 100%;
   margin-top: 32px;
@@ -360,6 +379,7 @@ option,
   box-sizing: border-box;
   border-radius: 6px;
   outline: none;
+color:black
 }
 
 .iAgree {
@@ -416,7 +436,7 @@ option,
 }
 
 #copy {
-  color: black !important;
+
   margin: 40px 0;
   font-family: "Bold";
 }
@@ -439,7 +459,7 @@ option,
 }
 
 .cartProudctRight p {
-  color: #6a983c;
+  color: white;
   font-family: "Bold";
 }
 
@@ -491,10 +511,12 @@ option,
 }
 
 .cartTotal span {
-  color: #6a983c;
+  color: white;
   font-family: "Bold";
 }
-
+.ship{
+  color:black
+}
 .removeAll {
   display: flex;
   align-items: center;
@@ -807,6 +829,9 @@ option,
   .checkoutRight {
     display: none;
   }
+  ul.breadcrumb li{
+    color:black
+  }
 }
 
 @media screen and (min-width: 414px) and (max-width: 767px) {
@@ -955,6 +980,9 @@ option,
   .checkoutRight {
     display: none;
   }
+  ul.breadcrumb li{
+    color:black
+  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
@@ -963,7 +991,9 @@ option,
     list-style: none;
     background: #fdfdfd;
   }
-
+  ul.breadcrumb li{
+    color:black
+  }
   .checkout {
     transform: translateY(-40px);
   }

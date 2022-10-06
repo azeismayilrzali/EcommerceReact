@@ -9,6 +9,7 @@ function BlogPageInner() {
     }, [])
 
   return (
+    <>
     <div className='BlogPageInner'>
 
         <div className="bread">
@@ -71,6 +72,8 @@ function BlogPageInner() {
         </div>
 
     </div>
+    <hr style={{marginBottom:'8%'}}/>
+    </>
   )
 }
 

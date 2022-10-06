@@ -44,12 +44,13 @@
     font-weight: normal;
     font-size: 17px;
     line-height: 23px;
-    color: #151515;
+    color: rgb(170,168,168,168);
     padding-top: 12px !important;
 }
 
 .blog-page-inner-desc div span{
     font-family: "Bold";
+    color:#eeffff
 }
 
 .blog-page-inner-second,
@@ -71,6 +72,6 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    color: #151515;
+    color: #eeffff;
     cursor: pointer;
 }

@@ -4,8 +4,14 @@ import Sec from '../components/Section-Headline/Sec'
 import DetailMain from '../components/Detail/DetailMain'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
-
+import HeadingMiddle from '../components/Header/HeadingMiddle'
+import HeadingBottom from '../components/Header/HeadingBottom'
 function Detail(props) {
+
+  
+
+
+
     const parent = useRef();
 
     useEffect(() => {
@@ -32,7 +38,9 @@ function Detail(props) {
 
     }, [props.blur])
 
-    return (
+    return (<>
+         <HeadingMiddle />
+            <HeadingBottom /> 
         <div ref={parent} className="detail">
             <div className="bread">
                 <ul className="breadcrumb">
@@ -46,6 +54,7 @@ function Detail(props) {
             <Sec />
 
         </div>
+        </>
     )
 }
 

@@ -9,8 +9,8 @@ function Header() {
         <div className="headerReact">
             <HeadingTop />
             <hr />
-            <HeadingMiddle />
-            <HeadingBottom />
+            {/* <HeadingMiddle />
+            <HeadingBottom /> */}
         </div>
     )
 }

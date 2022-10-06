@@ -3,7 +3,8 @@ import './Main.css';
 import MainLeft from './MainLeft'
 import MainRight from './MainRight'
 import { connect } from 'react-redux'
-
+import HeadingBottom from '../Header/HeadingBottom';
+import HeadingMiddle from '../Header/HeadingMiddle';
 function Main(props) {
     const parent = useRef();
 
@@ -28,10 +29,13 @@ function Main(props) {
     }, [props.blur])
 
     return (
+        <>
+        <HeadingMiddle />
+        <HeadingBottom /> 
         <div ref={parent} className="main">
             <MainLeft />
             <MainRight />
-        </div>
+        </div></>
     )
 }
 

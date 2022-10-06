@@ -62,7 +62,7 @@ function BillingInfo() {
                 <div>
                     <span>
                         <input type="checkbox" name="" id="checkbox" />
-                        <p>Ship to a different address?</p>
+                        <p className='ship'>Ship to a different address?</p>
                     </span>
                 </div>
             </div>

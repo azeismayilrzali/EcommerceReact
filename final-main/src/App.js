@@ -51,7 +51,7 @@ function App() {
             <Footer />
       </Suspense>
     </Fragment>
-  );
+  )
 }
 
 export default App;

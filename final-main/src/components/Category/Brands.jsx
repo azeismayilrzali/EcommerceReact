@@ -6,37 +6,42 @@ function Brands() {
             <h2>Brands</h2>
 
             <div>
-                <label>
-                    <input type="checkbox" name="" id="" />
-                    Adidas
+            <label className='radio'>
+                    <input type="radio" name="" id="" />
+                   Adidas
+                    <span  id='qw' style={{left:'0', borderRadius:'0'}} ></span>
                 </label>
             </div>
 
             <div>
-                <label>
-                    <input type="checkbox" name="" id="" />
+                <label className='radio'>
+                    <input type="radio" name="" id="" />
                     Nike
+                    <span  id='qw' style={{left:'0', borderRadius:'0'}} ></span>
                 </label>
             </div>
 
             <div>
-                <label>
-                    <input type="checkbox" name="" id="" />
-                    Puma
+            <label className='radio'>
+                    <input type="radio" name="" id="" />
+                   Puma
+                    <span  id='qw' style={{left:'0', borderRadius:'0'}} ></span>
                 </label>
             </div>
 
             <div>
-                <label>
-                    <input type="checkbox" name="" id="" />
+            <label className='radio'>
+                    <input type="radio" name="" id="" />
                     Jordan
+                    <span  id='qw' style={{left:'0', borderRadius:'0'}} ></span>
                 </label>
             </div>
 
             <div>
-                <label>
-                    <input type="checkbox" name="" id="" />
-                    Converse
+            <label className='radio'>
+                    <input type="radio" name="" id="" />
+                  Converse
+                    <span id='qw' style={{left:'0', borderRadius:'0'}} ></span>
                 </label>
             </div>
         </div>

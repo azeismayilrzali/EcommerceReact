@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from 'react'
 import { connect } from 'react-redux'
 import CategoryMain from '../components/Category/CategoryMain'
 import '../components/Category/Category.css'
-
+import HeadingMiddle from '../components/Header/HeadingMiddle';
+import HeadingBottom from '../components/Header/HeadingBottom';
 function Categorypage(props) {
     const parent = useRef();
     const list = useRef();
@@ -77,6 +78,9 @@ function Categorypage(props) {
     }
 
     return (
+        <>
+        <HeadingMiddle/>
+        <HeadingBottom />
         <div ref={parent} className="categoryPage">
             <div className="categoryHeading">
 
@@ -120,38 +124,44 @@ function Categorypage(props) {
             <div className="filterContainer">
 
                 <div className="firstFilter">
-                    <label onClick={selectedFilterFunction}>
-                        <input onClick={sortingPrice} value="Price: Low to High" type="radio" name="same" id="" />
+                    <label onClick={selectedFilterFunction} className="radio">
+                        <input  onClick={sortingPrice} value="Price: Low to High" type="radio" name="same" id="" />
                         Price: Low to High
+                        <span></span>
                     </label>
-                    <label onClick={selectedFilterFunction}>
+                    <label onClick={selectedFilterFunction} className="radio">
                         <input onClick={sortingPriceDes} value="Price: High to Low" type="radio" name="same" id="" />
                         Price: High to Low
+                        <span></span>
                     </label>
                 </div>
 
                 <div className="firstFilter">
-                    <label onClick={selectedFilterFunction}>
+                    <label onClick={selectedFilterFunction} className="radio">
                         <input onClick={sortingTitle} value={"Title: A to Z"} type="radio" name="same" id="" />
                         Title: A to Z
+                        <span></span>
                     </label>
-                    <label onClick={selectedFilterFunction}>
+                    <label onClick={selectedFilterFunction} className="radio">
                         <input onClick={sortingTitleDes} value={"Title: Z to A"} type="radio" name="same" id="" />
                         Title: Z to A
+                        <span></span>
                     </label>
                 </div>
 
-                <div className="secondFilter thirdFilter">
-                    <label onClick={selectedFilterFunction}>
+                <div className="secondFilter thirdFilter" >
+                    <label onClick={selectedFilterFunction} className="radio">
                         <input onClick={sortingId} value={"New Arrivals"} type="radio" name="same" id="" />
                         New Arrivals
+                        <span style={{left:'0'}}></span>
                     </label>
                 </div>
 
                 <div className="secondFilter thirdFilter">
-                    <label onClick={selectedFilterFunction}>
+                    <label onClick={selectedFilterFunction} className="radio">
                         <input onClick={sortingId} value={"Discounted"} type="radio" name="same" id="" />
                         Discounted
+                        <span style={{left:'0'}}></span>
                     </label>
                 </div>
 
@@ -165,7 +175,10 @@ function Categorypage(props) {
             <CategoryMain
                 isRightOpen={isRightOpen}
             />
+         
         </div >
+           <hr style={{marginBottom:"8%"}}/>
+         </>
     )
 }
 

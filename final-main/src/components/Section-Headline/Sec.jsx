@@ -53,41 +53,44 @@ function Sec(props) {
     };
 
     return (
-        <div className="headline">
+        <>
+            <div className="headline">
 
-            <div className="sectionHeading">
+                <div className="sectionHeading">
 
-                <h3>Section Headline</h3>
-                <Link to="">Button <i className="fas fa-angle-right"></i></Link>
+                    <h3>Section Headline</h3>
+                    <Link to="">Button <i className="fas fa-angle-right"></i></Link>
 
-            </div>
+                </div>
 
-            <div className="headlineCards">
-                {JSONDATA.slice(4, 8).map((val, key) => {
+                <div className="headlineCards">
+                    {JSONDATA.slice(4, 8).map((val, key) => {
 
-                    return (
-                        <div className="mainRightCard1 card" id='card' key={key}>
-                            <Link to={`/products/${val.id}`}>
-                                <img className="card-img"
-                                    src={val.img} />
-                                <h3 className="card-title">{val.title}</h3>
-                                <p>{val.desc}</p>
-                            </Link>
+                        return (
+                            <div className="mainRightCard1 card" id='card' key={key}>
+                                <Link to={`/products/${val.id}`}>
+                                    <img className="card-img"
+                                        src={val.img} />
+                                    <h3 className="card-title">{val.title}</h3>
+                                    <p>{val.desc}</p>
+                                </Link>
 
-                            <div className="cardContainer">
-                                <h3 className="card-price">{val.price} USD</h3>
-                                <button id="buynow" className="button"
-                                    onClick={() => addItem(val)}
-                                >
-                                    Add to Cart
-                                </button>
+                                <div className="cardContainer">
+                                    <h3 className="card-price">{val.price} USD</h3>
+                                    <button id="buynow" className="button"
+                                        onClick={() => addItem(val)}
+                                    >
+                                        Add to Cart
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                    )
-                })}
-            </div>
+                        )
+                    })}
+                </div>
 
-        </div>
+            </div>
+            <hr style={{ marginBottom: '8%' }} />
+        </>
     )
 }
 
