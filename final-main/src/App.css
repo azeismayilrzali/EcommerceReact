@@ -6,7 +6,7 @@
     max-width: 1920px;
     margin: 0 auto;
     /* background-color: #050f19; */
-    animation: gradient 2s infinite alternate linear;
+    animation: gradient 8s infinite alternate linear;
     background: #050f19;
 
 }
@@ -16,7 +16,7 @@
 @keyframes gradient {
   
   100% {
-    background: #101a23;
+    background: #111b25;
     }
  
 
